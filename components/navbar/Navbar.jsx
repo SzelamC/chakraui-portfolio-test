@@ -1,6 +1,7 @@
 import { Box, HStack } from "@chakra-ui/react";
 import Logo from "./Logo";
 import LinkItem from "./LinkItem";
+import ColorModeSwitcher from "./ColorModeSwitcher";
 
 const Navbar = () => {
   return (
@@ -16,7 +17,7 @@ const Navbar = () => {
             </LinkItem>
           </HStack>
         </HStack>
-        <Box>haha</Box>
+        <ColorModeSwitcher/>
       </HStack>
     </Box>
   );
